@@ -1,0 +1,132 @@
+
+:root{
+    --main-bg-color:#2874f0;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+body{
+    background-color: #f0f0f0;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+   
+}
+.logo{
+    display: flex;
+    align-items:center;
+    
+}
+.logo img{
+    width: 88px;
+    padding: 0 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 23px 14px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+   color: white;
+}
+nav ul li a:hover{
+  cursor: pointer;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.search{
+    display: flex;
+   
+    align-items: center;
+    
+}
+.search input{
+     height:27px;
+    width: 30vw;
+   border: none;
+    margin:0 16px 0 8px ;
+    padding: 6px 16px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.frontSector{
+    width: 100%;
+    height:fit-content;
+    cursor: pointer;
+    
+}
+.frontSector img{
+    max-width: 100%;
+    height: auto;
+
+}
+.slider{
+    margin:5px auto ;
+    width: 98vw;
+    overflow: hidden;
+   
+}
+.slider img{
+    max-width: 100%;
+    height: auto;  
+}
+.bank img{
+    max-width: 100%;
+    height: auto;  
+}
+.price{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.card{
+  
+    margin: 20px auto;
+    max-width: 91vw;
+
+
+}
+
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+footer{
+    height: 12vh;
+    color: white;
+    background-color: var(--main-bg-color);;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
